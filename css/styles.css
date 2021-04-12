@@ -214,7 +214,7 @@ ul {
   color: #ffffff;
 }
 
-.modal-btn {
+/* .modal-btn {
   min-width: 200px;
   padding: 10px;
 
@@ -237,7 +237,7 @@ ul {
 .modal-btn:hover,
 .modal-btn:focus {
   background-color: #188ce8;
-}
+} */
 
 .section-title {
   margin-bottom: 50px;
@@ -410,7 +410,7 @@ ul {
   height: 44px;
 }
 
-.social-list_item-link {
+/* .social-list_item-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -430,7 +430,7 @@ ul {
 .social-list_item-link:hover .social-list_icon,
 .social-list_item-link:focus .social-list_icon {
   fill: #ffffff;
-}
+} */
 
 /* cliets */
 .clients {
@@ -492,7 +492,7 @@ ul {
   padding-right: 15px;
 }
 
-.adress-links_footer {
+.adress-links-wrapper {
   margin-top: 60px;
   margin-bottom: 60px;
   width: 231px;
@@ -532,7 +532,7 @@ ul {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.social-links_footer {
+.social-links-wrapper {
   margin-top: 72px;
   margin-bottom: 100px;
   width: 206px;
@@ -551,7 +551,7 @@ ul {
   color: #ffffff;
 }
 
-.social-list_footer {
+/* .social-list_footer {
   display: flex;
   align-items: center;
 }
@@ -578,7 +578,7 @@ ul {
 .item-link:hover .social_icon,
 .item-link:focus .social_icon {
   fill: #ffffff;
-}
+} */
 
 .mail-wrapper {
   width: 570px;
@@ -821,7 +821,7 @@ ul {
   outline: 1px solid #ffffff;
 }
 
-.modal-form-button {
+/* .modal-form-button {
   margin-top: 30px;
   align-self: center;
   padding: 10px;
@@ -845,7 +845,7 @@ ul {
 .modal-form-button:hover,
 .modal-form-button:focus {
   background-color: #188ce8;
-}
+} */
 
 .contract-link {
   color: var(--accent-color);
