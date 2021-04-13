@@ -297,7 +297,7 @@ ul {
 
 /* advantages */
 
-.advantages {
+/* .advantages {
   padding-top: 94px;
   padding-bottom: 47px;
 }
@@ -312,7 +312,7 @@ ul {
   flex-basis: calc(100% / 3- 30px);
   margin-left: 30px;
   margin-top: 30px;
-}
+} */
 
 /* .advantage-title {
   margin-bottom: 10px;
@@ -334,7 +334,7 @@ ul {
   color: #757575;
 } */
 
-.advantage-item_img {
+/* .advantage-item_img {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -347,11 +347,11 @@ ul {
 
 .advantage-item_icon {
   fill: #212121, var(--accent-color);
-}
+} */
 
 /* ---our team--- */
 
-.our-team {
+/* .our-team {
   padding-top: 94px;
   padding-bottom: 94px;
   background: #f5f4fa;
@@ -377,7 +377,7 @@ ul {
   flex-basis: calc(100% / 3- 30px);
   margin-left: 30px;
   margin-top: 30px;
-}
+} */
 
 /* .team-title {
   margin-bottom: 10px;
@@ -433,7 +433,7 @@ ul {
 } */
 
 /* cliets */
-.clients {
+/* .clients {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -477,10 +477,10 @@ ul {
 .clients-list_item:hover .clients-list_icon,
 .clients-list_item:focus .clients-list_icon {
   fill: var(--accent-color);
-}
+} */
 
 /* footer */
-.footer {
+/* .footer {
   background-color: #2f303a;
 }
 
@@ -497,7 +497,7 @@ ul {
   margin-bottom: 60px;
   width: 231px;
   height: 81px;
-}
+} */
 
 /* .logo-link-footer {
   margin-bottom: 20px;
@@ -509,7 +509,7 @@ ul {
   color: white;
 } */
 
-.contacts-list-footer :not(:last-child) {
+/* .contacts-list-footer :not(:last-child) {
   margin-bottom: 9px;
 }
 
@@ -549,7 +549,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
-}
+} */
 
 /* .social-list_footer {
   display: flex;
@@ -559,7 +559,7 @@ ul {
   margin-right: 10px;
 } */
 
-.item-link {
+/* .item-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -578,9 +578,9 @@ ul {
 .item-link:hover .social_icon,
 .item-link:focus .social_icon {
   fill: #ffffff;
-}
+} */
 
-.mail-wrapper {
+/* .mail-wrapper {
   width: 570px;
   min-height: 86px;
   margin-left: 93px;
@@ -659,11 +659,11 @@ ul {
 
 .signap-form-icon {
   margin-left: 10px;
-}
+} */
 
 /* modal */
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -671,7 +671,7 @@ ul {
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.2);
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 .modal {
   position: absolute;
