@@ -4,13 +4,11 @@
   margin-left: 93px;
   margin-top: 72px;
 }
-
 .footer-form {
   position: relative;
   width: 100%;
   min-height: 50px;
 }
-
 .mail-wrapper-title {
   font-family: var(--main-font);
   font-weight: 700;
@@ -21,7 +19,6 @@
   color: #ffffff;
   padding-bottom: 20px;
 }
-
 .footer-form-input {
   position: absolute;
   left: 0;
@@ -31,30 +28,27 @@
   padding-left: 16px;
   width: 358px;
   min-height: 50px;
-
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25px;
   letter-spacing: 0.03em;
   color: #ffffff;
-
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: #2f303a;
   outline: none;
-}
 
-.futer-form-input::placeholder {
-  color: rgba(255, 255, 255, 0.6);
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
 }
 
 .footer-form-button {
   display: flex;
   align-items: center;
   padding-left: 29px;
-
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 16px;
@@ -68,7 +62,6 @@
   bottom: 0;
   cursor: pointer;
   border: none;
-
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
