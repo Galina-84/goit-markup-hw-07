@@ -9,7 +9,7 @@
   width: 100%;
   min-height: 50px;
 }
-.mail-wrapper-title {
+.mail-wrapper__title {
   font-family: var(--main-font);
   font-weight: 700;
   font-size: 14px;
@@ -19,7 +19,7 @@
   color: #ffffff;
   padding-bottom: 20px;
 }
-.footer-form-input {
+.footer-form__input {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -68,6 +68,6 @@
   outline: none;
 }
 
-.signap-form-icon {
+.footer-form__icon {
   margin-left: 10px;
 }

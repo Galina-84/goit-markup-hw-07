@@ -10,7 +10,7 @@
   }
 }
 
-.clients-list_item {
+.clients-list__item {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,6 +21,7 @@
   border-radius: 4px;
   width: 170px;
   height: 90px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover,
   &:focus {
@@ -28,18 +29,15 @@
   }
 }
 
-.clients-list_icon {
+.clients-list__icon {
   fill: #afb1b8;
-}
 
-.clients-list_link {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.clients-list_item {
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  &:hover .clients-list_icon,
-  &:focus .clients-list_icon {
+  .clients-list__item:hover &,
+  .clients-list__item:focus & {
     fill: var(--accent-color);
   }
+}
+
+.clients-list__link {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
