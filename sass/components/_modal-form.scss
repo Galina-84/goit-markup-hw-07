@@ -121,13 +121,13 @@
   }
 }
 
-.modal-form__chek:checked + .modal-form__chek::before {
+.modal-form__term:checked + .modal-form__chek::before {
   background-image: url("../images/iconcheck.svg");
   background-position: center;
   border: 0.2px solid #ffffff;
 }
 
-.modal-form__chek:focus + .modal-form__chek::before {
+.modal-form__term:focus + .modal-form__chek::before {
   outline: 1px solid #ffffff;
 }
 

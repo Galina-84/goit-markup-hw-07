@@ -2,7 +2,7 @@
   padding-bottom: 94px;
 }
 
-.portfolio-link {
+.portfolio-list__link {
   display: block;
 
   &:hover .overlay,
@@ -17,14 +17,14 @@
   margin-left: -30px;
   margin-top: -30px;
 
-  .portfolio-item {
+  .portfolio__item {
     flex-basis: calc(100% / 3- 30px);
     margin-left: 30px;
     margin-top: 30px;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    &:hover .portfolio-link,
-    &:focus .portfolio-link {
+    &:hover .portfolio-list__link,
+    &:focus .portfolio-list__link {
       box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
         0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
     }
